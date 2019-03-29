@@ -1,0 +1,12 @@
+celesta:
+  #h2:
+  #  inMemory: true
+
+  jdbc:
+    url: jdbc:postgresql://localhost:5432/mussample
+    username: postgres
+    password: postgres
+
+
+server:
+  port: 8089

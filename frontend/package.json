@@ -1,0 +1,42 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Lyra Grid example project",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "inspect:dev": "vue-cli-service inspect",
+    "inspect:prod": "vue-cli-service inspect  --mode production",
+    "cache:clean": "npm cache clean --force"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.15",
+    "jquery": "^3.3.1",
+    "lyra-grid": "^1.0.11",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.5.1",
+    "@vue/cli-service": "^3.5.2",
+    "ajv": "^6.10.0",
+    "@babel/core": "^7.4.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10",
+    "dojo-webpack-plugin": "^2.8.3",
+    "copy-webpack-plugin": "^5.0.2"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
